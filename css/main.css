@@ -4,13 +4,13 @@
 }
 
 @font-face {
-    font-family: "fontProject";
-    src: url("./fonts/Helvetica-01.ttf") format("truetype");
+    font-family: "main_font";
+    src: url("../fonts/Helvetica-01.ttf") format("truetype");
 }
 :root {
     --black_color: #242424;
     --white_color: #fff;
-    --main_font: "fontProject";
+    --main_font: "main_font";
 }
 
 body {
