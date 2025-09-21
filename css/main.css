@@ -4,17 +4,23 @@
 }
 
 @font-face {
-    font-family: "main_font";
+    font-family: "text_font";
     src: url("../fonts/Helvetica-01.ttf") format("truetype");
+}
+@font-face {
+    font-family: "title_font";
+    src: url("../fonts/Helvetica-Bold-02.ttf") format("truetype");
+    font-weight: bold;
 }
 :root {
     --black_color: #242424;
     --white_color: #fff;
-    --main_font: "main_font";
+    --text_font: "text_font";
+    --title_font: "title_font";
 }
 
 body {
-    font-family: var(--main_font);
+    font-family: var(--text_font);
     color: var(--black_color);
     background-color: var(--white_color);
 }
