@@ -15,14 +15,30 @@
 :root{
     --white: #fff;
     --black: #242424;
+    --color1: #800080;
+    --color2: #f7e6d2;
+    --color3: #24f54a;
+    --color4: #ccc;
 }
 
 body {
     font-family: "paragraph_font";
-    color: var(--white);
-    background-color: var(--w);
+    color: var(--black);
+    background-color: var(--white);
 }
 
 .bg-purple {
-  background-color: #800080;
+  background-color: var(--color1);
 }
+.bg-naranja-claro {
+  background-color: var(--color2);
+}
+
+.bg-green-claro {
+  background-color: var(--color3);
+}
+
+.bg-gray {
+  background-color: var(--color4);
+}
+
